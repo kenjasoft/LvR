@@ -3,8 +3,6 @@
 A two-player minigame compilation for the Game Boy Advance, developed using the
 [Tonc](https://www.coranac.com/tonc/text/) GBA development library.
 
-**Created by quisseh (2017)**
-
 ---
 
 ## Concept
@@ -175,5 +173,5 @@ These may be useful if you're using this as a reference for your own GBA project
 
 ## License
 
-Released as a reference/learning resource. Feel free to read, adapt, or build upon
-this code for your own GBA projects.
+Released under the MIT License as a reference/learning resource. Feel free to read, adapt,
+or build upon this code for your own GBA projects.
