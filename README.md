@@ -135,7 +135,7 @@ These may be useful if you're using this as a reference for your own GBA project
 
 ### Converting Backgrounds / Sprites to Byte Arrays
 
-- This project uses [Usenti](https://www.coranac.com/projects/#usenti) to convert bitmap
+- This project uses [Usenti](https://www.coranac.com/projects/usenti/) to convert bitmap
   image files (see the BMP files in the `img` folder of the repository) into byte arrays.
 - Usenti settings for converting background images:
   ![Usenti settings for converting background images](img/background-export.png)
