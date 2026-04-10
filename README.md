@@ -1,5 +1,7 @@
 # LvR
 
+![LvR screenshot](img/lvr-screenshot.png)
+
 A two-player minigame compilation for the Game Boy Advance, developed using the
 [Tonc](https://www.coranac.com/tonc/text/) GBA development library.
 
@@ -97,8 +99,7 @@ make clean
 ```
 LvR/
 ├── LvR.c          # All game source code
-├── Makefile       # Build configuration
-└── README.md
+└── Makefile       # Build configuration
 ```
 
 All game logic, graphics data, palette data, and map data are contained in a single
@@ -131,6 +132,15 @@ These may be useful if you're using this as a reference for your own GBA project
 - Sprites are hidden by ORing `ATTR0_HIDE` into attr0.
 - Animation frames are stored in a spritesheet layout; frame offsets are tracked via
   `startFrame` and `cursorFrame` fields on each game object struct.
+
+### Converting Backgrounds / Sprites to Byte Arrays
+
+- This project uses [Usenti](https://www.coranac.com/projects/#usenti) to convert bitmap
+  image files (see the BMP files in the `img` folder of the repository) into byte arrays.
+- Usenti settings for converting background images:
+  ![Usenti settings for converting background images](img/background-export.png)
+- Usenti settings for converting sprite images:
+  ![Usenti settings for converting sprite images](img/sprite-export.png)
 
 ### Text / HUD
 
