@@ -1,6 +1,6 @@
 # LvR
 
-![LvR screenshot](img/lvr-screenshot.png)
+![LvR screenshot](readme-assets/lvr-screenshot.png)
 
 A two-player minigame compilation for the Game Boy Advance, developed using the
 [Tonc](https://www.coranac.com/tonc/text/) GBA development library.
@@ -139,9 +139,9 @@ These may be useful if you're using this as a reference for your own GBA project
   image files (see the BMP files in the [img](https://github.com/kenjasoft/LvR/tree/master/img)
   folder of the repository) into byte arrays.
 - Usenti settings for converting background images:
-  ![Usenti settings for converting background images](img/background-export.png)
+  ![Usenti settings for converting background images](readme-assets/background-export.png)
 - Usenti settings for converting sprite images:
-  ![Usenti settings for converting sprite images](img/sprite-export.png)
+  ![Usenti settings for converting sprite images](readme-assets/sprite-export.png)
 
 ### Text / HUD
 
