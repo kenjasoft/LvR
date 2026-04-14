@@ -184,5 +184,4 @@ These may be useful if you're using this as a reference for your own GBA project
 
 ## License
 
-Released under the MIT License as a reference/learning resource. Feel free to read, adapt,
-or build upon this code for your own GBA projects.
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE.md) file for more details.
